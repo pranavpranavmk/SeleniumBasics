@@ -308,4 +308,8 @@ public void TC_017_verifyIsEnabled() {
 	 System.out.println(elements);
 	 submitButton.submit();
 }
+@Test
+public void TC_017_verifyTheMessageIsDisplayedInNew() {
+	driver.get("https://demoqa.com/browser-windows");
+}
 }
